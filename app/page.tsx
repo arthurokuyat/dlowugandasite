@@ -58,7 +58,7 @@ export default function Home() {
   const downloadAPK = () => {
     // Firebase download URL for the APK
     const apkUrl =
-      "https://firebasestorage.googleapis.com/v0/b/d-low-331b1.appspot.com/o/downloads%2FDlow-release%20%283%29.apk?alt=media&token=53844918-a9d2-474e-8120-70111fdfcebe"
+      "https://firebasestorage.googleapis.com/v0/b/d-low-331b1.appspot.com/o/downloads%2FDlow.apk?alt=media&token=6de1ea15-cbf9-4a76-a28c-d2813429d5bf"
 
     // Create a temporary link element to trigger download
     const link = document.createElement("a")
@@ -103,7 +103,7 @@ export default function Home() {
         <div className="container mx-auto px-4 flex items-center justify-between">
           <div className="flex items-center">
             <Image
-              src="/images/dlow-logo.png"
+              src="/images/dlow-logo.webp"
               alt="Dlow Uganda Logo"
               width={540}
               height={225}
@@ -177,7 +177,7 @@ export default function Home() {
               <div className="flex items-center justify-between p-4 border-b border-white/20 flex-shrink-0">
                 <div className="flex items-center">
                   <Image
-                    src="/images/dlow-logo.png"
+                    src="/images/dlow-logo.webp"
                     alt="Dlow Uganda Logo"
                     width={540}
                     height={225}
@@ -385,7 +385,7 @@ export default function Home() {
                 {/* Real Google Maps Background */}
                 <div className="relative h-full">
                   <Image
-                    src="/images/kampala-map.jpeg"
+                    src="/images/kampala-map.webp"
                     alt="Real Google Maps of Kampala showing Dlow coverage area"
                     fill
                     className="object-cover"
@@ -495,7 +495,7 @@ export default function Home() {
             <div className="w-full md:w-1/3 lg:w-1/4">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/dlow-team-professional.jpeg"
+                  src="/images/dlow-team-professional.webp"
                   alt="Dlow Uganda professional team helping local businesses"
                   width={400}
                   height={300}
@@ -584,7 +584,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative aspect-[9/16] bg-gradient-to-br from-[#0e053b] to-[#1a1060]">
                 <Image
-                  src="/images/app-screenshot-1.png"
+                  src="/images/app-screenshot-1.webp"
                   alt="Explore listings and discounts"
                   fill
                   className="object-contain p-4"
@@ -608,7 +608,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative aspect-[9/16] bg-gradient-to-br from-[#0e053b] to-[#1a1060]">
                 <Image
-                  src="/images/app-screenshot-2.png"
+                  src="/images/app-screenshot-2.webp"
                   alt="Add to cart, book or request delivery"
                   fill
                   className="object-contain p-4"
@@ -631,7 +631,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative aspect-[9/16] bg-gradient-to-br from-[#0e053b] to-[#1a1060]">
                 <Image
-                  src="/images/app-screenshot-3.png"
+                  src="/images/app-screenshot-3.webp"
                   alt="Get seller details instantly"
                   fill
                   className="object-contain p-4"
@@ -654,7 +654,7 @@ export default function Home() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="relative aspect-[9/16] bg-gradient-to-br from-[#0e053b] to-[#1a1060]">
                 <Image
-                  src="/images/app-screenshot-4.png"
+                  src="/images/app-screenshot-4.webp"
                   alt="Run an online business"
                   fill
                   className="object-contain p-4"
@@ -1127,7 +1127,7 @@ export default function Home() {
             <div className="flex flex-col items-center">
               <div className="bg-white p-4 md:p-6 rounded-2xl shadow-lg mb-4 hover:shadow-xl transition-shadow">
                 <img
-                  src="/images/google-play.png"
+                  src="/images/google-play.webp"
                   alt="Google Play Store"
                   className="w-16 h-16 md:w-20 md:h-20 object-contain"
                 />
@@ -1140,7 +1140,7 @@ export default function Home() {
             <div className="flex flex-col items-center">
               <div className="bg-white p-4 md:p-6 rounded-2xl shadow-lg mb-4 hover:shadow-xl transition-shadow">
                 <img
-                  src="/images/apple-store.jpeg"
+                  src="/images/apple-store.webp"
                   alt="Apple App Store"
                   className="w-16 h-16 md:w-20 md:h-20 object-contain"
                 />
