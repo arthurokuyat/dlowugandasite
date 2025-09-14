@@ -58,7 +58,7 @@ export default function Home() {
   const downloadAPK = () => {
     // Firebase download URL for the APK
     const apkUrl =
-      "https://firebasestorage.googleapis.com/v0/b/d-low-331b1.appspot.com/o/downloads%2FDlow.apk?alt=media&token=6de1ea15-cbf9-4a76-a28c-d2813429d5bf"
+      "https://firebasestorage.googleapis.com/v0/b/d-low-331b1.appspot.com/o/downloads%2Fdlowuganda.apk?alt=media&token=17c61db6-2206-4042-aa92-902a441c8df1"
 
     // Create a temporary link element to trigger download
     const link = document.createElement("a")
